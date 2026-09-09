@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+  // Force redirect: if someone lands on the Render default domain,
+  // send them straight to the custom domain instead.
+  (function () {
+    if (window.location.hostname.endsWith('onrender.com')) {
+      window.location.replace(
+        'https://matrikatoursandtravels.com' +
+          window.location.pathname +
+          window.location.search
+      );
+    }
+  })();
+</script>
+    <link rel="icon" type="image/png" href="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SKiesHIkes</title>
+    <meta
+      name="description"
+      content="SkieHIkes."
+    />
+    <link rel="canonical" href="" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "TravelAgency",
+        "name": "SkieHikes",
+        "url": "https://matrikatoursandtravels.com",
+        "logo": "",
+        "image": "",
+        "telephone": "+919411548183",
+        "email": "skieHikes@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "XYZ",
+          "addressLocality": "hveh",
+          "addressRegion": "Uttarakhand",
+          "postalCode": "11XXX11",
+          "addressCountry": "IN"
+        },
+        "sameAs": [
+          "https://www.facebook.com",
+          "https://www.instagram.com/trekskies?igsi=NGNyajNwbXJqd2Jk",
+          "https://wa.me/919411548183"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

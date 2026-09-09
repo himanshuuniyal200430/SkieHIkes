@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* ─── Featured Packages auto-slide ─────────────────────────────── */
+@keyframes package-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.package-marquee-track {
+  animation: package-marquee 30s linear infinite;
+}
+
+.package-marquee-track:hover {
+  animation-play-state: paused;
+}
+
+@media (max-width: 768px) {
+  .package-marquee-track {
+    animation-duration: 20s;
+  }
+}
