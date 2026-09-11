@@ -60,8 +60,8 @@ const team = [
 
 const OurTeam = () => {
   useSEO({
-    title: 'Meet the Team | SkieHIkes',
-    description: 'Meet the people behind SkieHIkes — the team crafting your Himalayan adventures.',
+    title: 'Meet the Team | Tresk Skies',
+    description: 'Meet the people behind Tresk Skies — the team crafting your Himalayan adventures.',
     path: '/our-team',
   });
 

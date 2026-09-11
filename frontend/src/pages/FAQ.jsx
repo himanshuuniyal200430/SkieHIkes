@@ -25,8 +25,8 @@ const categories = ['All', 'Booking', 'Trekking', 'Payment', 'Safety', 'Other'];
 
 const FAQ = () => {
   useSEO({
-    title: 'FAQs | SkieHIkes',
-    description: 'Answers to common questions about booking treks and tours with SkieHIkes.',
+    title: 'FAQs | Tresk Skies',
+    description: 'Answers to common questions about booking treks and tours with Tresk Skies.',
     path: '/faq',
   });
 
@@ -82,7 +82,7 @@ const FAQ = () => {
             Frequently asked questions
           </h1>
           <p className="text-[#F3ECDC]/60 max-w-xl mx-auto text-sm">
-            Everything you need to know before you lace up your boots and join a SkieHikes trek.
+            Everything you need to know before you lace up your boots and join a Tresk Skies trek.
           </p>
         </div>
       </div>

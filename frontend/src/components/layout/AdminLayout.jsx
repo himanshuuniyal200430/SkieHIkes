@@ -64,7 +64,7 @@ const AdminLayout = () => {
         <div className="w-8 h-8 rounded-full border border-[#C9A227] flex items-center justify-center flex-shrink-0">
           <Compass size={15} className="text-[#C9A227]" />
         </div>
-        <span className="mtk-serif text-[#F3ECDC] text-sm">SkieHikes Admin</span>
+        <span className="mtk-serif text-[#F3ECDC] text-sm">Tresk Skies Admin</span>
       </div>
 
       {/* Nav */}

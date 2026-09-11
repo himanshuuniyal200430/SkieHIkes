@@ -36,7 +36,7 @@ const itemVariants = {
 
 const Gallery = () => {
   useSEO({
-    title: 'Gallery | SkieHIkes',
+    title: 'Gallery | Tresk Skies',
     description: 'Explore photos from our treks and tours across Uttarakhand — real moments from real journeys.',
     path: '/gallery',
   });
@@ -110,7 +110,7 @@ const Gallery = () => {
           </div>
           <h1 className="mtk-serif text-4xl sm:text-5xl text-[#F3ECDC] mb-3">Our gallery</h1>
           <p className="text-[#F3ECDC]/60 max-w-xl mx-auto text-sm">
-            A glimpse into the journeys, landscapes, and community that make every SkieHikes trek unforgettable.
+            A glimpse into the journeys, landscapes, and community that make every Tresk Skies trek unforgettable.
           </p>
         </div>
       </div>

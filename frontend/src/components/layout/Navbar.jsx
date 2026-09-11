@@ -61,11 +61,11 @@ const Navbar = () => {
           <Link to="/" className="flex items-center gap-2.5">
             <img
               src=""
-              alt="SKieHikes"
+              alt="Tresk Skies"
               className="w-9 h-9 rounded-full object-cover object-center flex-shrink-0 border border-[#C9A227]/40"
             />
             <div className="leading-tight">
-              <p className="mtk-serif text-sm text-[#F3ECDC]">SKieHikes</p>
+              <p className="mtk-serif text-sm text-[#F3ECDC]">Tresk Skies</p>
               <p className="text-[10px] text-[#C9A227] tracking-wide flex items-center gap-1">
                 <Compass size={9} /> Uttrakhand, India
               </p>

@@ -503,7 +503,7 @@ const Waypoints = () => {
 const TestimonialCarousel = () => {
   const testimonials = [
     { name: 'Aanya Singh', city: 'Mumbai', text: 'The Valley of Flowers trek was life-changing. Every moment felt safe, fun, and filled with memories I will treasure forever.', rating: 5 },
-    { name: 'Meera Patel', city: 'Ahmedabad', text: 'As a solo traveler I was nervous at first. SkieHikes made me feel at home from day one — the community I found here is priceless.', rating: 5 },
+    { name: 'Meera Patel', city: 'Ahmedabad', text: 'As a solo traveler I was nervous at first. Tresk Skies made me feel at home from day one — the community I found here is priceless.', rating: 5 },
     { name: 'Divya Nair', city: 'Bangalore', text: 'Professional, caring, and deeply empowering. Every detail was thoughtfully arranged. Will definitely book again.', rating: 5 },
   ];
   const [index, setIndex] = useState(0);
@@ -681,8 +681,8 @@ const CTA = () => (
 // ─── Main Home Page ──────────────────────────────────────────────
 const Home = () => {
   useSEO({
-    title: 'SkieHIkes | Tour & Trekking Packages in Uttarakhand',
-    description: 'SkieHIkes offers curated tour and trekking packages across Uttarakhand and beyond. Based in Dehradun, trusted by travelers for personalized itineraries and reliable service.',
+    title: 'Tresk Skies | Tour & Trekking Packages in Uttarakhand',
+    description: 'Tresk Skies offers curated tour and trekking packages across Uttarakhand and beyond. Based in Dehradun, trusted by travelers for personalized itineraries and reliable service.',
     path: '/',
   });
 

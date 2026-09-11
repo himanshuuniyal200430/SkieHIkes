@@ -56,11 +56,11 @@ const Footer = () => {
             <Link to="/" className="flex items-center gap-2.5 mb-4">
               <img
                 src=""
-                alt="SkieHikes"
+                alt="Tresk Skies"
                 className="w-10 h-10 rounded-full object-cover object-center flex-shrink-0 border border-[#C9A227]/40"
               />
               <div className="leading-tight">
-                <p className="mtk-serif text-base text-[#F3ECDC]">SkieHIkes</p>
+                <p className="mtk-serif text-base text-[#F3ECDC]">Tresk Skies</p>
                 <p className="text-[11px] text-[#C9A227]">Find your perfect trail</p>
               </div>
             </Link>
@@ -204,7 +204,7 @@ const Footer = () => {
                     href="mailto:skies@gmail.com"
                     className="text-sm text-[#F3ECDC]/55 hover:text-[#C9A227] transition-colors break-all"
                   >
-                    skieHikes@gmail.com
+                    trekskies01@gmail.com
                   </a>
                 </li>
               </ul>
@@ -218,7 +218,7 @@ const Footer = () => {
       <div className="border-t border-[#F3ECDC]/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-2">
           <p className="text-xs text-[#F3ECDC]/35">
-            © {new Date().getFullYear()} SKieHIkes. All rights reserved.
+            © {new Date().getFullYear()} Tresk Skies. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             <Link

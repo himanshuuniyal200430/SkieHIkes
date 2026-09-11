@@ -13,7 +13,7 @@ const SITE_URL = 'https://matrikatoursandtravels.com';
 //
 // Usage in a page component:
 //   useSEO({
-//     title: 'Our Trek Packages | SkieHIkes',
+//     title: 'Our Trek Packages | Tresk Skies',
 //     description: 'Browse curated trek packages across Uttarakhand...',
 //     path: '/packages',
 //   });

@@ -30,7 +30,7 @@ const contactInfo = [
   {
     icon: Mail,
     label: 'Email us',
-    value: 'SkieHikes@gmail.com',
+    value: 'trekskies01@gmail.com',
     sub: 'We reply within 24 hours',
   },
   {
@@ -51,8 +51,8 @@ const initialForm = { name: '', email: '', phone: '', subject: '', message: '' }
 
 const Contact = () => {
   useSEO({
-    title: 'Contact Us | SkieHIkes',
-    description: 'Get in touch with SkieHIkes for trek and tour enquiries. Based in Dehradun, Uttarakhand.',
+    title: 'Contact Us | Tresk Skies',
+    description: 'Get in touch with Tresk Skies for trek and tour enquiries. Based in Dehradun, Uttarakhand.',
     path: '/contact',
   });
 

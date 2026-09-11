@@ -215,7 +215,7 @@ const FilterPanel = ({ filters, handleFilterChange, hasActiveFilters, clearFilte
 // ─── Main Packages Page ───────────────────────────────────────────
 const Packages = () => {
   useSEO({
-    title: 'Trek Packages | SkieHIkes',
+    title: 'Trek Packages | Tresk Skies',
     description: 'Browse curated trek packages across Uttarakhand — from beginner-friendly trails to challenging summit treks.',
     path: '/packages',
   });

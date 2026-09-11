@@ -115,7 +115,7 @@ const SECTIONS = [
   {
     id: 'company-changes',
     icon: CloudLightning,
-    title: 'Cancellations or Changes by SkieHikes',
+    title: 'Cancellations or Changes by Tresk Skies',
     body: (
       <p>
         In rare situations beyond our control — severe weather, road closures, local
@@ -157,7 +157,7 @@ const SECTIONS = [
       <>
         <p className="font-semibold text-[#16342A]">Please do:</p>
         <ul className="list-disc pl-5 space-y-1 mb-3">
-          <li>Follow instructions from your trek leader or SkieHikes staff at all times</li>
+          <li>Follow instructions from your trek leader or Tresk Skies staff at all times</li>
           <li>Be on time for departures, meals, and scheduled activities</li>
           <li>Keep your personal belongings and documents secure</li>
           <li>Respect local communities, customs, and religious sites along the trail</li>
@@ -180,14 +180,14 @@ const SECTIONS = [
     body: (
       <>
         <p>
-          Trekking involves inherent risk. SkieHikes is not liable for
+          Trekking involves inherent risk. Tresk Skies is not liable for
           personal injury, illness, loss, delay, or damage arising from circumstances outside
           our reasonable control. Trekkers are responsible for their own belongings throughout
           the trip — we are not responsible for items lost or misplaced during the trek.
         </p>
         <p>
           The right of admission and removal from a trek in cases of misconduct rests with
-          SkieHikes, and such decisions are final. Any disputes will be subject
+          Tresk Skies, and such decisions are final. Any disputes will be subject
           to the jurisdiction of the courts in <strong className="text-[#16342A]"> Uttarakhand</strong>.
         </p>
       </>
@@ -197,8 +197,8 @@ const SECTIONS = [
 
 const TermsAndConditions = () => {
   useSEO({
-    title: 'Terms & Conditions | SkieHIkes',
-    description: 'Terms and conditions for booking treks and tours with SkieHIkes.',
+    title: 'Terms & Conditions | Tresk Skies',
+    description: 'Terms and conditions for booking treks and tours with Tresk Skies.',
     path: '/terms',
   });
 
@@ -243,7 +243,7 @@ const TermsAndConditions = () => {
           </div>
           <h1 className="mtk-serif text-4xl sm:text-5xl text-[#F3ECDC] mb-3">Terms &amp; conditions</h1>
           <p className="text-[#F3ECDC]/60 max-w-xl mx-auto text-sm">
-            These terms apply to every booking made with SkieHikes. By confirming
+            These terms apply to every booking made with Tresk Skies. By confirming
             a trek with us, you agree to the policies below.
           </p>
         </div>

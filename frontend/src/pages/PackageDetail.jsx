@@ -490,7 +490,7 @@ const PackageDetail = () => {
   // captures THAT instead of the real trek title if it renders the page
   // before the fetch finishes, resulting in a wrong/generic sitelink title.
   useSEO({
-    title: pkg ? `${pkg.title} | SkieHIkes` : undefined,
+    title: pkg ? `${pkg.title} | Tresk Skies` : undefined,
     description: pkg?.shortDescription,
     path: `/packages/${slug}`,
   });
