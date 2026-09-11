@@ -9,8 +9,8 @@
 // mail via a normal HTTPS POST request instead, so it works the same as any
 // other API call your server makes — no blocked ports involved.
 
-const GMAIL_TOKEN_URL = 'https://oauth2.googleapis.com/token';
-const GMAIL_SEND_URL = 'https://gmail.googleapis.com/gmail/v1/users/me/messages/send';
+const GMAIL_TOKEN_URL = 
+const GMAIL_SEND_URL = 
 
 const formatDate = (date) =>
   new Date(date).toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' });
