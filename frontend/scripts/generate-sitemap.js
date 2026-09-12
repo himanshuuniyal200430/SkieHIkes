@@ -8,7 +8,7 @@ import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-const SITE_URL = "https://matrikatoursandtravels.com";
+const SITE_URL = "skiehikes.com";
 const API_URL =
   process.env.VITE_API_URL || "https://trekking-backend-3za9.onrender.com/api";
 
