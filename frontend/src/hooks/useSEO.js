@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-const SITE_URL = 'https://matrikatoursandtravels.com';
+const SITE_URL = 'https://skiehikes.com';
 
 // Sets document.title, the meta description, and — most importantly — the
 // canonical <link> tag to match the CURRENT page's own URL.
